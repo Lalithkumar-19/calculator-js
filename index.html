@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+
+<body>
+
+    <section id="calci">
+        <form>
+            <input type="text" id="resul" />
+        </form>
+        <div class="buttons">
+            <button type="button" class="btn btn-yellow" onclick="document.getElementById('resul').value += '*'">*</button>
+            <button type="button" class="btn btn-yellow" onclick="document.getElementById('resul').value += '/'">/</button>
+            <button type="button" class="btn btn-yellow" onclick="document.getElementById('resul').value += '-'">-</button>
+            <button type="button" class="btn btn-yellow" onclick="document.getElementById('resul').value += '+'">+</button>
+
+            <button type="button" data-num="9" onclick="document.getElementById('resul').value += 9"> 9</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 8">8</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 7">7</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 6">6</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 5">5</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 4">4</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 3">3</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 2">2</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 1">1</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += 0" ondblclick="location.reload(true)">0</button>
+            <button type="button" class="btn btn-white" onclick="document.getElementById('resul').value += '.'">.</button>
+
+
+
+
+            <button type="button " class="btn btn-equal " onclick="solve() ">=</button>
+            <button type="button " class="btn btn-clear " onclick="document.getElementById( 'resul').value=' ' ">c</button>
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <script src="calci.js "></script>
+</body>
+
+</html>
