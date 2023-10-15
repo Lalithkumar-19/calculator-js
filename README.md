@@ -28,8 +28,11 @@ Contributions are welcome! Whether you want to improve the user interface, add n
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 👥 Authors:
+Lalith kumar
 
-Your Name
+
+
+
 🌐 Connect with Us:
 
 
